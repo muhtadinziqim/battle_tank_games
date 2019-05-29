@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Demo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Peluru.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tiles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="loading.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fsm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Peluru.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tiles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Loading.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Fsm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="homeranim.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="peluru.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="tanks.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="tile.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="afMap.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="agentMap.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="wMap.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="fsm_map.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="world_map.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mm_exit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mm_exit_hover.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mm_logo_pkl.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mm_play.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mm_play_hover.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mm_game_over.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mm_win.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\mm_logo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\loading.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\loadingteks.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bt_20x20.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="res\bt_20x20_hover.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="res\bt_30x30.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="res\bt_30x30_hover.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="res\bt_40x40.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="res\bt_40x40_hover.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="res\bt_npc1.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="res\bt_npc1_hover.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="res\bt_npc4.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="res\bt_npc4_hover.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="res\bt_npc8.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="res\bt_npc8_hover.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="res\bt_npc12.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="res\bt_npc12_hover.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="res\bt_npc16.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="res\bt_npc16_hover.png">
+      <Filter>Header Files</Filter>
+    </Image>
+    <Image Include="res\bt_npc5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bt_npc5_hover.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bt_npc10.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bt_npc10_hover.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bt_npc15.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bt_npc15_hover.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="spriteAnim.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="spriteAnim.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tank.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tank.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="lazy.map">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="logo.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="logo.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="menu.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="menu.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map1.map">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map2.map">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map3.map">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fsm.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="fsm.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="arial.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
+  </ItemGroup>
+</Project>
